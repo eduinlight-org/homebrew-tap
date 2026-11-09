@@ -1,28 +1,28 @@
 class Sddvault < Formula
   desc "Command-line tool for SDD Vault, the hosted store for Spec Driven Development"
   homepage "https://sddvault.com"
-  version "1.2.0"
+  version "1.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://get.sddvault.com/releases/1.2.0/sddvault-1.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "eaf493b3fa0fbfab8f7ed5b438ff9e42e4b2e4efee98cc218e35280dee21e3dc"
+      url "https://get.sddvault.com/releases/1.2.1/sddvault-1.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "d5d5eef0e54b06baf31050da9e491728e0a7765356be61d84653606b512520d7"
     end
     on_intel do
-      url "https://get.sddvault.com/releases/1.2.0/sddvault-1.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "fab47b2d08a9d71018a906ff4e76b74cc7139f723eb1ed73d48a8b40d93c9da6"
+      url "https://get.sddvault.com/releases/1.2.1/sddvault-1.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "171e16835cc38cd85359832dd525cd1eba5fab3eaa67420a1c2ea407822ac7cb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://get.sddvault.com/releases/1.2.0/sddvault-1.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2e94941d603da0b18bcca48c77b11d2cad2b8ba57cf46c25dbbeaaf28240b6ee"
+      url "https://get.sddvault.com/releases/1.2.1/sddvault-1.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "728e0cf694e403ac1e486a4e403eaee143670773e510da3142295b8bec6d78ab"
     end
     on_intel do
-      url "https://get.sddvault.com/releases/1.2.0/sddvault-1.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "349ae0219a5a6a0436ed607be68d3fce4b4e89f7fe09c10489d1d28ed137f344"
+      url "https://get.sddvault.com/releases/1.2.1/sddvault-1.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "28e5862833190bfa567b23224334d6ef32d175313d03f74c98fa47a2206a9114"
     end
   end
 
